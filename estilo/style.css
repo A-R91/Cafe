@@ -107,8 +107,7 @@ main > p {
 }
 
 main img {
-  margin-top: 20px;
-  margin-left: 30px;
+  margin: auto;
   max-width: 100%;
   min-width: 50%;
 }
