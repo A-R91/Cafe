@@ -79,39 +79,27 @@ nav a:hover {
   font-size: 1.2em;
   padding: 3px 5px 3px 5px;
 }
+
 main {
   background-color: var(--cor-1);
   margin: auto;
   padding: 10px;
   min-width: 300px;
   max-width: 1000px;
-  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 main > h1 {
   font-family: var(--fonte-Café);
   color: var(--cor-4);
   font-size: 3em;
-  padding: 10px 0px 20px 0px;
+  padding: 10px 0px 5px 0px;
 }
 
-main > h2 { 
-  font-family: var(--fonte-Café);
-  color: var(--cor-4);
-  font-size: 2em;
-  padding: 20px 0px 0px 0px;
-}
 main > p {
   font-family: var(--fonte-destaque);
   font-size: 0.8em;
-  padding-top: 10px;
-}
-
-main img {
-  margin-top: 20px;
-  margin-left: 30px;
-  max-width: 100%;
-  min-width: 50%;
+  margin-bottom: 10px;
 }
 
 main  a {
@@ -121,10 +109,6 @@ main  a {
   font-weight: bolder;
 }
 
-div.paragrafo {
-  margin: 10px 0px 10px 0px;
-}
-
 div.video {
   background-color: var(--cor-4);
   margin: 0px -0px 30px -0px;
@@ -132,6 +116,7 @@ div.video {
   padding-bottom: 54.3%;
   position: relative;
   border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
 }
 
 div.video > iframe {
@@ -142,32 +127,17 @@ div.video > iframe {
   height: 90%;
 }
 
-aside {
-  background-color: var(--cor-2);
-  min-height: 200px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.11);
+div.link {
+  text-align: center; 
+  margin: 10px;
 }
 
-aside > h2 {
-  background-color: var(--cor-4);
-  font-family: var(--fonte-Café);
-  color: var(--cor-1);
-  margin: 5px 0px 5px 0px;
-  padding: 5px;
-}
-
-aside > ul {
-  list-style: disc;
-  color: var(--cor-4);
-  text-decoration: underline;
-  font-family: var(--fonte-Café);
+div.link >a {
+  font-family: var(--fonte-destaque);
   font-weight: bolder;
-  font-size: 1.5em;
-  margin: 5px 0px 10px 40px;
   padding: 10px;
-  columns: 2;
+  margin-left: 20px;
+  border-radius: 10px;
 }
 
 footer {
@@ -176,5 +146,3 @@ footer {
   text-align: center;
   font-family: var(--fonte-Café);
 }
-
-
