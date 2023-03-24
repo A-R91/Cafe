@@ -109,13 +109,13 @@ main > p {
 
 main img {
   margin-top: 20px;
-  margin-left: 30px;
   max-width: 100%;
   min-width: 50%;
 }
 
 main  a {
   background-image: linear-gradient(var(--cor-2), transparent);
+  font-family: var(--fonte-destaque);
   text-decoration: none;
   color: var(--cor-4);
   font-weight: bolder;
